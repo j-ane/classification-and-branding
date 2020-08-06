@@ -1,12 +1,11 @@
 # Customer Loyalty Classification and Branding Strategy
-Customer loyalty was categorized by the number of times they visited the restaurant. Respondents were considered low-loyalty customers if they visited 1-3 times,
-medium-loyalty customers if they visited 3-5 times, and high-loyalty customers if they visited more than 5 times. The decision alternatives for this objective is 
+Customer loyalty was categorized by the number of times they visited the restaurant. The decision alternatives for this objective is 
 to determine whether or not a low- or medium-loyalty customer would convert into a high-loyalty customer, and whether or not a high-loyalty customer would remain 
 at the same loyalty level. 
 In order to study the restaurant’s positioning strategy, the survey included a 5-point likert scale questions to study the customers’ perception of various factors. 
 The decision alternatives are to determine which of the qualities customers felt more favorable for and select the optimal qualities to position the restaurant on.
 
-When it comes to classifying customers, the best option is to use LDA to estimate loyalty levels. The high-loyalty customers are well-separated from the other 
+Three classification models were designed and tested: multinomial logistic regression, linear discriminant analysis, and decision tree. When it comes to classifying customers, the best option is to use LDA to estimate loyalty levels. The high-loyalty customers are well-separated from the other 
 two segments, which explains why all three models perfectly predicted the high-loyalty customers in the test data. 
 
 The LDA model indicates that high-loyalty customers return for their experience at the restaurant and its convenience in terms of price and service. 
